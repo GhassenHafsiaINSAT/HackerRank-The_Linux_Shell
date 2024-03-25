@@ -44,6 +44,22 @@ The shell is the engine that executes commands and manages the system, while the
 - `less file_name`: Like more but with more options.
 - `grep "key_word" file_name`: Filter lines containing the specified keyword.
 
+### What are the environment variables?
+- `env` : show environment variables
+- `echo $variable_name`
+- `export variable_name=variable_value`
+- to persist the change acorss the sessions, you should type the export function in startup files, "the global configuration" --> etc/profile and .profile .bashrc
+
+### How to use redirection and pipelines?
+- `ls -l >> output.txt` 
+- `<`: Redirects input from a file.
+- `>`: Redirects output to a file, overwriting existing content.
+- `>>`: Redirects output to a file, appending to existing content.
+- `2>`: Redirects error output to a file.
+- `&>` or `>&`: Redirects both standard output and error output to a file.
+- `cat par1.txt par2.txt > par3.txt`
+- `|`: Connects the output of one command to the input of another command (pipeline).
+
 ## File Operations
 
 ### How to modify file permissions in bash?
