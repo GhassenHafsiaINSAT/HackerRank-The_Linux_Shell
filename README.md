@@ -25,6 +25,15 @@ The shell is the engine that executes commands and manages the system, while the
 - `find dir/ect/ory -name files.txt`: Find a file in a specific directory.
 - `find . -type d`: Search for directories in the current directory.
 
+### How to work with directories in the terminal with bash?
+- `mkdir direct_name` : to create directories.
+- `touch file_name` : to create files. 
+- `mv file_name directory_name` : deplacer le fichier dans une autre direction.
+- `cp file_name directory_name` : copier le ficher dans une autre direction. 
+- `cp file_name directory_name/new_file_name` : copier le fichier dans une autre direction et le renommer.
+- `rm file_name` : delete a file. 
+- `rm -r directory_name` : delete a directory recursevly. 
+
 ### How to view file contents in the terminal with bash?
 - `cat file_name`: Show the content in terminal.
 - `cat file_name_1 file_name_2`: Concatenate the two files and show their content.
