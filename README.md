@@ -82,7 +82,28 @@ done
 ```
 
 ## Additional Tips
+### In Bash, the `${}` syntax has several uses:
 
+1. **Parameter expansion**: It allows you to access the value of variables and perform transformations on them. For example:
+   ```bash
+   name="Alice"
+   echo "Hello, ${name}!"
+   ```
+2. **Array expansion**: It allows you to access elements of an array. For example:
+   ```bash
+    fruits=("apple" "banana" "orange")
+    echo "The second fruit is ${fruits[1]}"
+    ```
+3.**Substring expansion**: It allows you to extract a substring from a string variable. For example:
+    ```bash
+    sentence="The quick brown fox jumps over the lazy dog"
+    echo "Substring: ${sentence:10:5}"
+    ```
+4.**Command substitution**: It's similar to $(). It allows you to capture the output of a command. For example:
+    ```bash
+    current_dir=${PWD}
+    ```
+    
 - Use `$()` for command substitution.
 - Use `;` to separate multiple commands on the same line.
 - Use `;;` to terminate a case block in a case statement.
