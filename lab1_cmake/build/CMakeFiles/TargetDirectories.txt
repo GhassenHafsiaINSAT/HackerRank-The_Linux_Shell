@@ -1,0 +1,3 @@
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/build/CMakeFiles/hellobianary.dir
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/build/CMakeFiles/edit_cache.dir
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/build/CMakeFiles/rebuild_cache.dir

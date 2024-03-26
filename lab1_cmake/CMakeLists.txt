@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22)
+project(HELLOAP)
+add_executable(hellobianary main.cpp src/calc.cpp)
+target_include_directories(hellobianary PUBLIC include/)
+
