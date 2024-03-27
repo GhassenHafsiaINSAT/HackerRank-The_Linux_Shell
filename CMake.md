@@ -31,5 +31,20 @@ Makefiles and CMake are both tools used in software development, particulary in 
 ## How to automate the compiling process?
 `make` : it reads the instructions defined in the Makefile and executes the necessary compilation commands to build the specified target.
 
+## CMake syntax :
+`set(SRC_files main.cpp)` : we are creating a variable SRC_files that contains `main.cpp`.
 
+`${SRC_files}` : we call the variable so we can use it. 
 
+`message("SRC file has ${}SRC_files")` : it prints out the variable.
+
+`CMAKE_SOURCE_DIR` : it shows the full path to the top level of the current CMake source.
+
+```cmake
+if (EXISTS main.cpp)
+    message("exists")
+else()
+    message("do not exists")
+endif()
+```
+    this is an examlple of if structure, in which we check if the source file exists or not in the equivalent directory
