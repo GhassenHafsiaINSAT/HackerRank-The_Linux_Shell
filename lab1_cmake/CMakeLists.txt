@@ -3,3 +3,8 @@ project(HELLOAP)
 add_executable(hellobianary main.cpp src/calc.cpp)
 target_include_directories(hellobianary PUBLIC include/)
 
+if (EXISTS ${CMAKE_SOURCE_DIR}/main.cpp)
+    message("exists")
+else()
+    message("do not exists")
+endif()
