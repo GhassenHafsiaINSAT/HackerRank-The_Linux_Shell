@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libwifi_lab.a CMakeFiles/wifi_lab.dir/Wifi.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libwifi_lab.a

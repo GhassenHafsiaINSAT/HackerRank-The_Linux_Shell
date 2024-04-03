@@ -1,9 +1,10 @@
 #include <iostream>
-#include "calc.hpp"
+#include "include\calc.hpp"
+#include "lib\Wifi.hpp"
 using namespace std; 
 
 int main()
 {
-    cout << sum(1,2); 
+    WIFI_Init();
     return 0;
 }

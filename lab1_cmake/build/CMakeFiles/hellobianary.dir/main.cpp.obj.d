@@ -134,4 +134,5 @@ CMakeFiles/hellobianary.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.1.0/istream \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/istream.tcc \
- C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/include/calc.hpp
+ C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\include\calc.hpp \
+ C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\lib\Wifi.hpp
