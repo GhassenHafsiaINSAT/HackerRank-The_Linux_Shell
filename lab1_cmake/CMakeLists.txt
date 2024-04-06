@@ -47,5 +47,15 @@ while (var)
     math(EXPR var "${var} - 1")
 endwhile()
 
+## function 
+function (happynewyear arg1)
+    message ("arg1 ${arg1}")  #name of argument
+    message ("arg1 ${${arg1}}") #show values of var
+    message ("arg1 ${argn}")
+    message ("arg1 ${argc}")
+endfunction()
 
+#Let's open CMakeCache
+option(CVar "BOOL var" TRUE)
+set(Var2 TRUE CACHE BOOL "bool variable")
 
