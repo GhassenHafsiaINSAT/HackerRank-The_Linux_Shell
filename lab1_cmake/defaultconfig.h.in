@@ -1,0 +1,5 @@
+#define ProductType "BMW"
+#define ProductYear "${ProductYear}"
+
+#define HELLOAPP_VERSION_MAJOR @HELLOAPP_VERSION_MAJOR@
+#define HELLOAPP_VERSION_MINOR @HELLOAPP_VERSION_MINOR@

@@ -34,7 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeRCCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeSystem.cmake"
-  "C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/lib/CMakeLists.txt"
+  "C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/defaultconfig.h.in"
   )
 
 # The corresponding makefile is:
@@ -45,12 +45,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "defaultconfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/hellobianary.dir/DependInfo.cmake"
-  "lib/CMakeFiles/wifi_lab.dir/DependInfo.cmake"
   )

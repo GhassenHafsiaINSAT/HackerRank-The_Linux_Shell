@@ -154,7 +154,22 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=HELLOAP
+CMAKE_PROJECT_NAME:STATIC=HELLOAPP
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=3.2
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=2
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/msys64/ucrt64/bin/ranlib.exe
@@ -238,6 +253,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+HELLOAPP_BINARY_DIR:STATIC=C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/build
+
+//Value Computed by CMake
+HELLOAPP_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+HELLOAPP_SOURCE_DIR:STATIC=C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake
 
 //Value Computed by CMake
 HELLOAP_BINARY_DIR:STATIC=C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/build
@@ -355,7 +379,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

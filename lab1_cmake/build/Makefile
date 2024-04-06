@@ -115,80 +115,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named hellobianary
-
-# Build rule for target.
-hellobianary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hellobianary
-.PHONY : hellobianary
-
-# fast build rule for target.
-hellobianary/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/build
-.PHONY : hellobianary/fast
-
-#=============================================================================
-# Target rules for targets named wifi_lab
-
-# Build rule for target.
-wifi_lab: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 wifi_lab
-.PHONY : wifi_lab
-
-# fast build rule for target.
-wifi_lab/fast:
-	$(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lab.dir\build.make lib/CMakeFiles/wifi_lab.dir/build
-.PHONY : wifi_lab/fast
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-src/calc.obj: src/calc.cpp.obj
-.PHONY : src/calc.obj
-
-# target to build an object file
-src/calc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/src/calc.cpp.obj
-.PHONY : src/calc.cpp.obj
-
-src/calc.i: src/calc.cpp.i
-.PHONY : src/calc.i
-
-# target to preprocess a source file
-src/calc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/src/calc.cpp.i
-.PHONY : src/calc.cpp.i
-
-src/calc.s: src/calc.cpp.s
-.PHONY : src/calc.s
-
-# target to generate assembly for a file
-src/calc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/src/calc.cpp.s
-.PHONY : src/calc.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -197,14 +123,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... hellobianary
-	@echo ... wifi_lab
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... src/calc.obj
-	@echo ... src/calc.i
-	@echo ... src/calc.s
 .PHONY : help
 
 
