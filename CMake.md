@@ -41,4 +41,23 @@ Makefiles and CMake are both tools used in software development, particulary in 
 * `${CMAKE_CURRENT_BIANARY_DIR}`  : Displays the curretn bianary directory.     
 * `${CMAKE_GENERATOR}` : Displays the CMake generator currently used for the project.  
 * `${CMAKE_CXX_STANDARD}` : Displays the specified C++ version to compile the source files.   
-* `${CMAKE_CXX_STANDARD_REQUIRED}` : specifies if the selected language is required for compilation.   
+* `${CMAKE_CXX_STANDARD_REQUIRED}` : specifies if the selected language is required for compilation.
+
+## CMake if : 
+* `if (NOT var)`: This condition checks if the variable var is not set or is empty.  
+* `if (var1 and var2)`: This condition checks if both var1 and var2 are set and are non-empty.  
+* `if (var1 or var2)`: This condition checks if either var1 or var2 is set and non-empty.  
+* `if (val matches expression)`: This condition checks if the value of val matches the regular expression specified by expression. For example, if ("hello" matches "^h.*$") will evaluate to true because the string "hello" starts with the letter 'h'.  
+* `if (exists file)`: This condition checks if the specified file exists. For example, if (exists "myfile.txt") will evaluate to true if the file myfile.txt exists.  
+* `if (var1 less var2)`: This condition checks if the value of var1 is less than the value of var2.  
+* `if (var1 greater var2)`: This condition checks if the value of var1 is greater than the value of var2.  
+* `if (var1 equal var2)`: This condition checks if the value of var1 is equal to the value of var2.  
+* `if (target file_name)`: This condition checks if the specified target exists. In CMake, a target represents an executable, library, or custom target created with the add_executable, add_library, or add_custom_target commands.
+
+## CMake functions 
+`function (happynewyear arg1)`  
+      `message ("arg1 ${arg1}")` : Prints the name of the argument arg1.  
+      `message ("arg1 ${${arg1}}")` : Prints the value of the variables stored in arg1.  
+      `message ("arg1 ${ARGN}")` : `ARGN`  contains a list of additional arguments.  
+      `message ("arg1 ${ARGC}")` : `ARGC` holds the total number of arguments passed to the function.    
+`endfunction()`
