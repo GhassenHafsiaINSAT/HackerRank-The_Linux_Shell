@@ -1,0 +1,6 @@
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/CMakeFiles/hellobianary.dir
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/CMakeFiles/edit_cache.dir
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/CMakeFiles/rebuild_cache.dir
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/lib/CMakeFiles/wifi_lib.dir
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/lib/CMakeFiles/edit_cache.dir
+C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/lib/CMakeFiles/rebuild_cache.dir
