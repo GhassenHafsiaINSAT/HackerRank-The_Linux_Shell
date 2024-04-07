@@ -61,3 +61,13 @@ Makefiles and CMake are both tools used in software development, particulary in 
       `message ("arg1 ${ARGN}")` : `ARGN`  contains a list of additional arguments.  
       `message ("arg1 ${ARGC}")` : `ARGC` holds the total number of arguments passed to the function.    
 `endfunction()`
+
+## CMake Cashe 
+The CMake cache is a collection of key-value pairs representing each a configuration option or a variable and their corresponding value.  
+When CMake is run for the first time, it generates a cache file named `CMakeCache.txt`, and it persists across multiple runs of CMake.
+
+## CMake files 
+* `FILE(READ "main.cpp" Main_text)` : Reads the content from main.cpp and stores it in Main_text.  
+* `FILE(STRINGS "main.cpp" MAIN_txt)` : Reads the content from main.cpp line by line.  
+* `FILE(STRINGS "main.cpp" MAIN_TXT REGEX "^int.")` : It stores only the lines thaat match the specific regular expression. 
+* `FILE(GLOB_RECURSE SRCS "*.cpp")` : Searches recursevly and stores all the paths of files with .cpp in the current directory and its subdirectories.  
