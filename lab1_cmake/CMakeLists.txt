@@ -60,8 +60,8 @@ option(CVar "BOOL var" TRUE)
 set(Var2 TRUE CACHE BOOL "bool variable")
 
 # compiler info 
-target_compile_definitions(hellobianary PUBLIC "STD_CXX=17")
-target_compile_options(hellobianary PUBLIC -march=native)
+target_compile_definitions(hellobinary PUBLIC "STD_CXX=17")
+target_compile_options(hellobinary PUBLIC -march=native)
 
 # install 
 install(FILES "${PROJECT_BINARY_DIR}/hellobinary.exe"
