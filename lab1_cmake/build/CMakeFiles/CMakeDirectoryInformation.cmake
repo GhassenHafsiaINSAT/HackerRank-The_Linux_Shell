@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/ghass/Desktop/HackerRank-The_Linux_Shell/lab1_cmake/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

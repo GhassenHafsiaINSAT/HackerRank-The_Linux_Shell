@@ -59,7 +59,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake
+CMAKE_BINARY_DIR = C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\CMakeFiles C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\lib\\CMakeFiles\progress.marks
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\CMakeFiles 0
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build\CMakeFiles C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build\lib\\CMakeFiles\progress.marks
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/clean
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/wifi_lib.dir/rule:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/wifi_lib.dir/rule
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lib/CMakeFiles/wifi_lib.dir/rule
 .PHONY : lib/CMakeFiles/wifi_lib.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ wifi_lib: lib/CMakeFiles/wifi_lib.dir/rule
 
 # fast build rule for target.
 wifi_lib/fast:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/build
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/build
 .PHONY : wifi_lib/fast
 
 Wifi.obj: Wifi.cpp.obj
@@ -179,7 +179,7 @@ Wifi.obj: Wifi.cpp.obj
 
 # target to build an object file
 Wifi.cpp.obj:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/Wifi.cpp.obj
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/Wifi.cpp.obj
 .PHONY : Wifi.cpp.obj
 
 Wifi.i: Wifi.cpp.i
@@ -187,7 +187,7 @@ Wifi.i: Wifi.cpp.i
 
 # target to preprocess a source file
 Wifi.cpp.i:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/Wifi.cpp.i
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/Wifi.cpp.i
 .PHONY : Wifi.cpp.i
 
 Wifi.s: Wifi.cpp.s
@@ -195,7 +195,7 @@ Wifi.s: Wifi.cpp.s
 
 # target to generate assembly for a file
 Wifi.cpp.s:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/Wifi.cpp.s
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(MAKE) $(MAKESILENT) -f lib\CMakeFiles\wifi_lib.dir\build.make lib/CMakeFiles/wifi_lib.dir/Wifi.cpp.s
 .PHONY : Wifi.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

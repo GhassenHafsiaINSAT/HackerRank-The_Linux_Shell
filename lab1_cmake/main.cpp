@@ -6,5 +6,6 @@ using namespace std;
 int main()
 {
     WIFI_Init();
+    cout << STD_CXX <<endl; 
     return 0;
 }
