@@ -5,9 +5,9 @@ set (SRC_files
     src/calc.cpp)
 
 add_subdirectory(${CMAKE_SOURCE_DIR}/lib)
-add_executable(hellobianary ${SRC_files})
-target_include_directories(hellobianary PUBLIC include/lib/)
-target_link_libraries(hellobianary PUBLIC wifi_lib)
+add_executable(hellobinary ${SRC_files})
+target_include_directories(hellobinary PUBLIC include/lib/)
+target_link_libraries(hellobinary PUBLIC wifi_lib)
 
 #CMake variables
 #message(STATUS "CMAKE_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}")
@@ -31,19 +31,19 @@ endif()
 
 # for 
 foreach(f IN ITEMS G H A S S E N)
-    message(STATUS ${f})
+    #message(STATUS ${f})
 endforeach()
 
 # for with list 
 set (lst R A S L E N)
 foreach(F IN LISTS lst)
-    message(STATUS ${F})
+    #message(STATUS ${F})
 endforeach()
 
 # while loop 
 set (var 10)
 while (var)
-    message (${var})
+    #message (${var})
     math(EXPR var "${var} - 1")
 endwhile()
 
@@ -66,3 +66,22 @@ target_compile_options(hellobinary PUBLIC -march=native)
 # install 
 install(FILES "${PROJECT_BINARY_DIR}/hellobinary.exe"
     DESTINATION "${PROJECT_BINARY_DIR}/executable" )
+
+# File 
+FILE(READ "main.cpp" Main_text)
+#message ("${Main_text}")
+#message ("_____________________")
+FILE(STRINGS "main.cpp" MAIN_txt)
+#message("${MAIN_txt}")
+#message ("_____________________")
+FILE(STRINGS "main.cpp" MAIN_TXT REGEX "^int.")
+#message("${MAIN_TXT}")
+File(GLOB_RECURSE SRCS "*.cpp")
+#message("${SRCS}")
+
+# String 
+STRING ( REGEX REPLACE "int" "void" OUTput ${Main_text})
+#message ("${OUTput}")
+
+# execute process
+execute_process(COMMAND "ls")

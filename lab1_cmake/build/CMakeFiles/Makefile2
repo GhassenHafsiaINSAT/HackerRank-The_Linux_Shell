@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/hellobianary.dir/all
+all: CMakeFiles/hellobinary.dir/all
 all: lib/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/hellobianary.dir/clean
+clean: CMakeFiles/hellobinary.dir/clean
 clean: lib/clean
 .PHONY : clean
 
@@ -91,30 +91,30 @@ lib/clean: lib/CMakeFiles/wifi_lib.dir/clean
 .PHONY : lib/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hellobianary.dir
+# Target rules for target CMakeFiles/hellobinary.dir
 
 # All Build rule for target.
-CMakeFiles/hellobianary.dir/all: lib/CMakeFiles/wifi_lib.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build\CMakeFiles --progress-num=1,2,3 "Built target hellobianary"
-.PHONY : CMakeFiles/hellobianary.dir/all
+CMakeFiles/hellobinary.dir/all: lib/CMakeFiles/wifi_lib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build\CMakeFiles --progress-num=1,2,3 "Built target hellobinary"
+.PHONY : CMakeFiles/hellobinary.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hellobianary.dir/rule: cmake_check_build_system
+CMakeFiles/hellobinary.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build\CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hellobianary.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hellobinary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ghass\Desktop\HackerRank-The_Linux_Shell\lab1_cmake\build\CMakeFiles 0
-.PHONY : CMakeFiles/hellobianary.dir/rule
+.PHONY : CMakeFiles/hellobinary.dir/rule
 
 # Convenience name for target.
-hellobianary: CMakeFiles/hellobianary.dir/rule
-.PHONY : hellobianary
+hellobinary: CMakeFiles/hellobinary.dir/rule
+.PHONY : hellobinary
 
 # clean rule for target.
-CMakeFiles/hellobianary.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/clean
-.PHONY : CMakeFiles/hellobianary.dir/clean
+CMakeFiles/hellobinary.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/clean
+.PHONY : CMakeFiles/hellobinary.dir/clean
 
 #=============================================================================
 # Target rules for target lib/CMakeFiles/wifi_lib.dir

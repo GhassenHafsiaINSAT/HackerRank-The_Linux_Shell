@@ -161,17 +161,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hellobianary
+# Target rules for targets named hellobinary
 
 # Build rule for target.
-hellobianary: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hellobianary
-.PHONY : hellobianary
+hellobinary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hellobinary
+.PHONY : hellobinary
 
 # fast build rule for target.
-hellobianary/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/build
-.PHONY : hellobianary/fast
+hellobinary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/build
+.PHONY : hellobinary/fast
 
 #=============================================================================
 # Target rules for targets named wifi_lib
@@ -191,7 +191,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -199,7 +199,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -207,7 +207,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/calc.obj: src/calc.cpp.obj
@@ -215,7 +215,7 @@ src/calc.obj: src/calc.cpp.obj
 
 # target to build an object file
 src/calc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/src/calc.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/src/calc.cpp.obj
 .PHONY : src/calc.cpp.obj
 
 src/calc.i: src/calc.cpp.i
@@ -223,7 +223,7 @@ src/calc.i: src/calc.cpp.i
 
 # target to preprocess a source file
 src/calc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/src/calc.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/src/calc.cpp.i
 .PHONY : src/calc.cpp.i
 
 src/calc.s: src/calc.cpp.s
@@ -231,7 +231,7 @@ src/calc.s: src/calc.cpp.s
 
 # target to generate assembly for a file
 src/calc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobianary.dir\build.make CMakeFiles/hellobianary.dir/src/calc.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hellobinary.dir\build.make CMakeFiles/hellobinary.dir/src/calc.cpp.s
 .PHONY : src/calc.cpp.s
 
 # Help Target
@@ -246,7 +246,7 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... hellobianary
+	@echo ... hellobinary
 	@echo ... wifi_lib
 	@echo ... main.obj
 	@echo ... main.i
