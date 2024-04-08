@@ -37,6 +37,12 @@
 
 9. **X Windows System (Graphical User Interface):** If configured, the X Windows System, or X11, provides a graphical user interface, enabling users to interact with the system using windows, icons, menus, and pointers (WIMP).
 
+## partitions and filesystem: 
+* A partition is a logical part of the disk.  
+* A filesystem is a method of storing files.  
+* By deviding hard disk into partitions, data can be grouped or seperated as needed, so when a mistake occures, only data in the affected partition will be damaged.  
+  
+
 ## Filesystem Hierarchy Standard (FHS): 
 * `/bin` : Essential system binaries or executables necessary for basic system functionality.  
 * `/sbin` : Binaries specifically for superuser (root) tasks and system administration commands.  
