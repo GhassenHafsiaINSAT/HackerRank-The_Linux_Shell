@@ -53,3 +53,7 @@
 * `/var` : Contains variable files that are expected to change in size or content during normal system operation, such as log files and cache files.  
 * `/tmp` : Used for temporary storage of files and data that do not need to persist between system reboots.  
 * `/proc` : A virtual filesystem that provides information about processes and system resources. It does not exist as a physical directory on the disk.
+
+  ![image](https://github.com/GhassenHafsiaINSAT/HackerRank-The_Linux_Shell/assets/110825502/eb693659-b29e-4eb7-a6ff-a3a7ba3d30d2)
+
+
